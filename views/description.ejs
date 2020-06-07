@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<%- include("basic/header"); -%>  <!-- 불러오기 -->
+
+<body> 
+  <%- include("basic/menu"); -%>
+  
+  <div class="view">
+    <img src="/static/bugatti_chiron.jpg" class="img-fluid" alt="placeholder">
+    <div class="mask flex-top waves-effect waves-light .rgba-black-strong">
+      <div class= "description" style="position: relative; margin-top:10%;">
+        <div class="text-white text-center py-5 px-4">
+          <div>
+            <h2 class="card-title h1-responsive pt-3 mb-5 font-bold"><strong>description</strong></h2>
+            <p class="mx-5 mb-5 h3-responsive"> <strong>사용하면 편리한 여러 툴들을 모으는것이 이 사이트의 목적이고 계속 추가해 나아갈 것입니다.</strong>
+            </p>
+            <a class="btn btn-outline-white btn-md" href="/tool-list"><i class="fas fa-clone left"></i> View tools</a>
+          </div>
+        </div>
+      </div>  
+    </div>
+  </div>
+
+  <!-- <div class="background"></div> -->
+
+    
+  
+  <%- include("basic/footer.ejs"); -%>
+</body>
+</html>
